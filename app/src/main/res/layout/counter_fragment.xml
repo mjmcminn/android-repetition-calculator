@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rep_complete"
+        android:id="@+id/rep_complete_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.70" />
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rep_history"
+        android:id="@+id/history_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="@string/rep_total"
+        android:id="@+id/total_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_history"
+        android:id="@+id/delete_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
+</LinearLayout>

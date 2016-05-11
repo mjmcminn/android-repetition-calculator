@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RepCalculator</string>
+    <string name="rep_count">Count</string>
+    <string name="rep_complete">DONE</string>
+    <string name="rep_history">HISTORY</string>
+    <string name="rep_total">TOTAL</string>
+    <string name="delete_history">DELETE</string>
+</resources>
